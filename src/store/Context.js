@@ -8,10 +8,10 @@ import googlePlayBadge from '../images/google_play_badge.png'
 import coverImage from '../images/amplichat_iphones_two.png'
 
 // endorsement images
-import dreamhub_filled from '../images/dreamhub_filled.png'
-import voiceqna_filled from '../images/voiceqna_fill_v2_gradient.png'
-import voicemirror_filled from '../images/voice_mirror_v_1024.png'
-import bazipaipai_unfilled from '../images/bazipaipai_64.png'
+import java from '../images/java.png'
+import studio from '../images/studio.png'
+import gradle from '../images/gradle.png'
+import sql from '../images/sql.png'
 import spindrifthome_filled from '../images/sh_unfill_1024.png'
 
 
@@ -43,38 +43,32 @@ export const initialState = {
 
     coverImage: coverImage,
 
-    endorsementTitle: `Hangout with your favorite people on your favorite apps`,
-    endorsementText: `AmpliChat powers conversations within DreamHub, VoiceQnA, VoiceMirror, BaZiPaiPai, and SpindriftHome.`,
+    endorsementTitle: `Fitness Time is built using various technologies `,
+    endorsementText: `In order to build a great product, we need to use the best tools available. We use a variety of technologies to build our products, including Java, Android Studio, SQLlite,Gradle and more.`,
     endorsementList: [
         {
-            title: `DreamHub: Visualized Stories`,
+            title: `Java`,
             titleColor: `orangeRed`,
-            image: dreamhub_filled,
-            URL: `https://dreamhub.app`,
+            image: java,
+            URL: `https://www.java.com/en/`,
         },
         {
-            title: `VoiceQnA: Speak a New Language`,
+            title: `Android Studio: Mobile App Development`,
             titleColor: `forestGreen`,
-            image: voiceqna_filled,
-            URL: `https://voiceqna.com`,
+            image: studio,
+            URL: `https://developer.android.com/studio`,
         },
         {
-            title: `VoiceMirror: Travel Translator`,
+            title: `Gradle`,
             titleColor: `blue`,
-            image: voicemirror_filled,
-            URL: `https://voiceqna.com/mirror`,
+            image: gradle,
+            URL: `https://gradle.org/`,
         },
         {
-            title: `BaZiPaiPai: Know Your Destiny`,
+            title: `SQLite`,
             titleColor: `black`,
-            image: bazipaipai_unfilled,
-            URL: `https://bazipaipai.com`,
-        },
-        {
-            title: `SpindriftHome: HOA Management`,
-            titleColor: `orangeRed`,
-            image: spindrifthome_filled,
-            URL: `https://spindrifthome.com`,
+            image: sql,
+            URL: `https://www.sqlite.org/index.html`,
         },
     ],
 

@@ -156,7 +156,7 @@ function Mobile() {
                                         <Col span={4}>
                                             <Tooltip placement='top' title={endorsementItem.title} color={endorsementItem.titleColor}>
                                                 <a href={endorsementItem.URL}  rel="noopener noreferrer">
-                                                    <Image height={50} preview={false} src={endorsementItem.image} style={{'boxShadow': '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}></Image>
+                                                    <Image height={50} preview={false} src={endorsementItem.image} style={{'drop-shadow': '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}></Image>
                                                 </a>
                                             </Tooltip>
                                         </Col>
