@@ -1,6 +1,6 @@
 import React from 'react'
 
-import appLogo from '../images/amplichat.png'
+import appLogo from '../images/logo.png'
 
 import appleStoreBadge from '../images/apple_store_badge.svg'
 import googlePlayBadge from '../images/google_play_badge.png'
@@ -29,17 +29,17 @@ export const initialState = {
     // when in dev, change appURL to local url
     // appURL: 'http://localhost:3000',  
     // when in production, change appURL to real url
-    appURL: 'https://amplichat.com',
+    appURL: 'http://localhost:3000',
 
     appLogo: appLogo,
-    appName: 'AmpliChat',
+    appName: 'Fitness Time',
 
-    coverTitle: 'Stay Connected at Events',
-    coverText: 'Chat with other attendees and make new friends at your favorite events and concerts.',
+    coverTitle: 'Get in shape with Fitness Time',
+    coverText: 'Fitness Time is a fitness app that helps you get in shape and stay in shape. It is a great way to track your progress and stay motivated. You can also connect with other users to share tips and tricks for staying healthy. Join today!',
     appleStoreBadge: appleStoreBadge,
-    appleStoreLink: 'https://apps.apple.com/us/app/amplichat/id1499570373',
+    appleStoreLink: '/',
     googlePlayBadge: googlePlayBadge,
-    googlePlayLink: 'https://apps.apple.com/us/app/amplichat/id1499570373',
+    googlePlayLink: '/',
 
     coverImage: coverImage,
 

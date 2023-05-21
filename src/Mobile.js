@@ -79,10 +79,10 @@ function Mobile() {
                 <Layout.Header style={{'background': 'white', 'width': '100%'}}>
                     <Row justify='center' align='middle' style={{'backgroundColor': 'white', 'width': '100%', 'height': '100%'}}>
                         <Col>
-                            <Image width={30} height={30} preview={false} src={state.appLogo}></Image>
+                            <Image width={90} height={90} preview={false} src={state.appLogo}></Image>
                         </Col>
                         <Col>
-                            <Typography.Title level={3} style={{'color': 'black', 'marginLeft': '10px'}}>{state.appName}</Typography.Title>
+                            <Typography.Title level={3} style={{'color': 'black', 'marginLeft': '20px'}}>{state.appName}</Typography.Title>
                         </Col>
                 
                     </Row>
@@ -109,7 +109,7 @@ function Mobile() {
                             state.appleStoreLink &&
                             <Col style={{'width': '45%'}}>
                                 <Row justify='center'>
-                                <a href={state.appleStoreLink} target='_blank' rel="noopener noreferrer">
+                                <a href={state.appleStoreLink}  rel="noopener noreferrer">
                                     <Image height={50} preview={false} src={state.appleStoreBadge}></Image>
                                 </a>
                                 </Row>
@@ -119,7 +119,7 @@ function Mobile() {
                             state.googlePlayLink &&
                             <Col style={{'width': '45%'}}>
                                 <Row justify='center'>
-                                <a href={state.googlePlayLink} target='_blank' rel="noopener noreferrer">
+                                <a href={state.googlePlayLink}  rel="noopener noreferrer">
                                     <Image height={50} style={{'padding': '2px 0'}} preview={false} src={state.googlePlayBadge}></Image>
                                 </a>
                                 </Row>
@@ -155,7 +155,7 @@ function Mobile() {
                                     return (
                                         <Col span={4}>
                                             <Tooltip placement='top' title={endorsementItem.title} color={endorsementItem.titleColor}>
-                                                <a href={endorsementItem.URL} target='_blank' rel="noopener noreferrer">
+                                                <a href={endorsementItem.URL}  rel="noopener noreferrer">
                                                     <Image height={50} preview={false} src={endorsementItem.image} style={{'boxShadow': '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}></Image>
                                                 </a>
                                             </Tooltip>
@@ -185,21 +185,21 @@ function Mobile() {
                                 </Typography>
                             </Row>
                             <Row justify='start' align='middle' style={{'marginTop': '20px'}}>
-                            <a href={state.appURL + '/policy/cookies'} target='_blank' rel="noopener noreferrer">
+                            <a href={state.appURL + '/policy/cookies'}  rel="noopener noreferrer">
                                 <Typography.Title level={5} style={{'margin': '0px'}}>
                                     Cookies Policy
                                 </Typography.Title>
                             </a>
                             </Row>
                             <Row justify='start' align='middle' style={{'marginTop': '20px'}}>
-                            <a href={state.appURL + '/policy/privacy'} target='_blank' rel="noopener noreferrer">
+                            <a href={state.appURL + '/policy/privacy'}  rel="noopener noreferrer">
                                 <Typography.Title level={5} style={{'margin': '0px'}}>
                                     Privacy Policy
                                 </Typography.Title>
                             </a>
                             </Row>
                             <Row justify='start' align='middle' style={{'marginTop': '20px'}}>
-                            <a href={state.appURL + '/policy/terms'} target='_blank' rel="noopener noreferrer">
+                            <a href={state.appURL + '/policy/terms'}  rel="noopener noreferrer">
                                 <Typography.Title level={5} style={{'margin': '0px'}}>
                                     Terms of Service
                                 </Typography.Title>
@@ -216,7 +216,7 @@ function Mobile() {
                             </Row>
                             <Row justify='start' align='middle' style={{'cursor': 'pointer', 'marginTop': '20px'}}>
                                 <Popover placement='top' title='Contact Us' content={
-                                    <a href={state.discordLink} target='_blank' rel="noopener noreferrer">
+                                    <a href={state.discordLink}  rel="noopener noreferrer">
                                         <Row justify='start' align='middle'>
                                             <Col>
                                                 <Image width={40} height={40} preview={false} src={state.discordImage}></Image>
