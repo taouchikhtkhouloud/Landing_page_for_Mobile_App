@@ -84,14 +84,13 @@ function Mobile() {
                         <Col>
                             <Typography.Title level={3} style={{'color': 'black', 'marginLeft': '20px'}}>{state.appName}</Typography.Title>
                         </Col>
-                
                     </Row>
                 </Layout.Header>
             </Affix>
 
             <Layout.Content>
                 {/* cover headline */}
-                <Row justify='center' align='middle' style={{'backgroundColor': 'white', 'height': '800px', 'paddingTop': '50px'}}>
+                <Row justify='center' align='middle' style={{'position':'relative','top':'100px','backgroundColor': 'white', 'height': '700px', 'paddingTop': '50px'}}>
                     <Row justify='center'>
                         <Typography.Title level={2}>
                             {state.coverTitle}

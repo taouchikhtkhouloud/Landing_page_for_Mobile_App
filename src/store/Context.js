@@ -106,7 +106,7 @@ export const initialState = {
     ],
 
     discordImage: discordImage,
-    discordLink: 'https://discord.com/invite/aFQPYyAVDq',
+    discordLink: 'https://discord.com',
 }
 
 const initialContext = {
