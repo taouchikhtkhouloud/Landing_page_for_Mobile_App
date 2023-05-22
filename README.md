@@ -1,4 +1,4 @@
-# React-Landing-Page-Template
+# Fitness Time landing page
 Landing page for our app on mobile.
 
 ## Live Demo
