@@ -1,26 +1,14 @@
 # React-Landing-Page-Template
-Quickly bring up a landing page for your app on desktop and mobile.
+Landing page for our app on mobile.
 
 ## Live Demo
-https://voiceqna.com/mirror
-
-https://voiceqna.com
-
-https://amplichat.com
-
-## Desktop Demo
-
-![desktop_gif](https://github.com/sugia/React-Landing-Page-Template/assets/2340878/2c80683a-b574-4d8f-8200-ae3984bb9794)
-
-## Mobile Demo
-
-![mobile_gif](https://github.com/sugia/React-Landing-Page-Template/assets/2340878/fc8b7f2f-734c-4192-bd87-a497322280d2)
+https://fitness--time.vercel.app/
 
 ## Getting Started
 ```
-git clone https://github.com/sugia/React-Landing-Page-Template.git
+git clone https://github.com/OssamaLouati/Landing_page_for_Mobile_App.git
 
-cd React-Landing-Page-Template
+cd Landing_page_for_Mobile_App
 
 npm i
 
@@ -35,4 +23,4 @@ Parameters to customize ```src/Desktop.js``` and ```src/Mobile.js``` can be foun
 Images should be saved inside the ```src/images/``` folder.
 
 ## License
-This codebase is licensed under [Apache License 2.0](https://github.com/sugia/React-Landing-Page-Template/blob/main/LICENSE). For more information, see the LICENSE file in this repository.
+This codebase is licensed under [Apache License 2.0](https://github.com/OssamaLouati/Landing_page_for_Mobile_App/blob/main/LICENSE). For more information, see the LICENSE file in this repository.

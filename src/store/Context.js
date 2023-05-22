@@ -5,24 +5,19 @@ import appLogo from '../images/logo.png'
 import appleStoreBadge from '../images/apple_store_badge.svg'
 import googlePlayBadge from '../images/google_play_badge.png'
 
-import coverImage from '../images/amplichat_iphones_two.png'
+import coverImage from '../images/mock.png'
 
 // endorsement images
 import java from '../images/java.png'
 import studio from '../images/studio.png'
 import gradle from '../images/gradle.png'
 import sql from '../images/sql.png'
-import spindrifthome_filled from '../images/sh_unfill_1024.png'
 
 
 // section images
-import guitar from '../images/guitar.jpg'
-import event_phones from '../images/event_phones.jpeg'
-import foggy_blue from '../images/foggy_blue.jpg'
-import purple_phones from '../images/purple_phones.png'
-import purple_light from '../images/purple_light.jpg'
-import concert_classic from '../images/concert_classic.jpg'
-
+import one from '../images/one.png'
+import two from '../images/two.png'
+import three from '../images/three.png'
 import discordImage from '../images/discord.png'
 
 export const initialState = {
@@ -74,34 +69,19 @@ export const initialState = {
 
     sectionList: [
         {
-            'title': `Event Networking Made Easy`,
-            'text': `Tired of shouting over the music to talk to your friends at concerts and events? Our app makes it easy to chat with others in real-time, so you can enjoy the experience without missing out on socializing.`,
-            'image': guitar,
+            'title': `Discover the power of Personalized Workouts`,
+            'text': `Get personalized workouts based on your fitness goals and preferences. Whether you want to lose weight, build muscle, or just stay healthy, we have a workout for you!`,
+            'image': one,
         },
         {
-            'title': `Expand Your Event Community`,
-            'text': `Meet like-minded people and share your excitement for the latest events and concerts.`,
-            'image': event_phones,
+            'title': `Schedule your workouts and make fitness a habit`,
+            'text': ` Schedule your workouts and make fitness a habit. We'll send you reminders so you never miss a workout!`,
+            'image': two,
         },
         {
-            'title': `Enhance Event Experience`,
-            'text': `Get instant access to a community of passionate event and concert-goers with our app! Chat with others before, during, and after the event to enhance your experience and create memories that last a lifetime.`,
-            'image': foggy_blue,
-        },
-        {
-            'title': `Chat with Attendees`,
-            'text': `Don't let social anxiety get in the way of enjoying your favorite events and concerts! With our app, you can chat with others and make new friends in a safe, welcoming environment.`,
-            'image': purple_phones,
-        },
-        {
-            'title': `Discover New Events and Friends`,
-            'text': `Our app is the perfect way to enhance your experience at events and concerts! Connect with others, share your thoughts and opinions, and discover new artists and events to love.`,
-            'image': purple_light,
-        },
-        {
-            'title': `Connect with Concert Fans`,
-            'text': `Whether you're a seasoned concert-goer or a first-time attendee, our app is the perfect way to connect with others and make the most of your experience. Download now and start chatting!`,
-            'image': concert_classic,
+            'title': `Visualise your fitness journey with our progress tracker`,
+            'text': `Track your progress with our progress tracker. See how far you've come and what you need to do next to reach your goals!`,
+            'image': three,
         },
     ],
 
