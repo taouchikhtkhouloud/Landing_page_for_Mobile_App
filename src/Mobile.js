@@ -108,7 +108,7 @@ function Mobile() {
                             state.appleStoreLink &&
                             <Col style={{'width': '45%'}}>
                                 <Row justify='center'>
-                                <a href={state.appleStoreLink}  rel="noopener noreferrer">
+                                <a href={state.appleStoreLink} target='blank'  rel="noopener noreferrer">
                                     <Image height={50} preview={false} src={state.appleStoreBadge}></Image>
                                 </a>
                                 </Row>
@@ -118,7 +118,7 @@ function Mobile() {
                             state.googlePlayLink &&
                             <Col style={{'width': '45%'}}>
                                 <Row justify='center'>
-                                <a href={state.googlePlayLink}  rel="noopener noreferrer">
+                                <a href={state.googlePlayLink} target='blank'   rel="noopener noreferrer">
                                     <Image height={50} style={{'padding': '2px 0'}} preview={false} src={state.googlePlayBadge}></Image>
                                 </a>
                                 </Row>
