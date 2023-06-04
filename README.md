@@ -1,6 +1,10 @@
 # Fitness Time landing page
 Landing page for our app on mobile.
+<img width="906" alt="image" src="https://github.com/taouchikhtkhouloud/Landing_page_for_Mobile_App/assets/92301300/4803726e-4bae-4952-b15a-63f8cbf44e90">
 
+# Fitness Time mobile application 
+Link for the repository of our application
+https://github.com/taouchikhtkhouloud/Fitness-Time.git
 ## Live Demo
 https://fitness--time.vercel.app/
 
